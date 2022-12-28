@@ -136,7 +136,7 @@ export default {
 
   computed: {
     filteredList1() {
-      return this.list1.filter((item) => item.text.toLowerCase().includes(this.input1))
+      return this.list1.filter((item) => item.text.toLowerCase().includes(this.input1.toLowerCase()))
     },
 
     filteredList2() {
