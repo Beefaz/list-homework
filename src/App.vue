@@ -140,7 +140,7 @@ export default {
     },
 
     filteredList2() {
-      return this.list2.filter((item) => item.text.toLowerCase().includes(this.input2))
+      return this.list2.filter((item) => item.text.toLowerCase().includes(this.input2.toLowerCase()))
     },
   },
 }
